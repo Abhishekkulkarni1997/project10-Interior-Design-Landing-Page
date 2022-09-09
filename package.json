@@ -4,7 +4,9 @@
   "description": "- Buiding the index.html from scratch\r     - Using pseudo class elements\r     - Importing background image through css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
   "repository": {
     "type": "git",
