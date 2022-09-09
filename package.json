@@ -1,0 +1,20 @@
+{
+  "name": "live-class-project-10",
+  "version": "1.0.0",
+  "description": "- Buiding the index.html from scratch\r     - Using pseudo class elements\r     - Importing background image through css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekkulkarni1997/project10-Interior-Design-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishekkulkarni1997/project10-Interior-Design-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Abhishekkulkarni1997/project10-Interior-Design-Landing-Page#readme"
+}
