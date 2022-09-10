@@ -13,7 +13,7 @@
 ### Time Required to finish the project
     (2 hrs)
 
- [Deployed Link](https://css-html-project-ten.netlify.app/)
+ [Deployed Link](https://project10-interior-design-landingpage.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Deployment-Up-green)
 
