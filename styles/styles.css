@@ -218,59 +218,66 @@ nav {
 }
 
 
-@media screen and (max-width:1200px) {
-    nav {
-        display: flex;
+/* for desktop apps */
 
-        width: 150px;
-        font-size: 15px;
-        float: right;
-        justify-content: space-between;
+@media (max-width:1360px) {
+    nav {
+        width: 60%;
     }
 
     .navmid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav-item {
-        margin-bottom: 5px;
-    }
-
-    .navend {
-        display: none;
+        flex-wrap: wrap;
     }
 
     .rightSection {
-        margin-top: 100px;
         float: left;
-        margin-left: 500px;
+        margin-left: 400px;
     }
+
 }
 
-@media screen and (max-width:950px) {
-    .heading>h1 {
-        font-size: 35px;
-        width: 300px;
-    }
+/* for tablet apps */
 
-    .rightSection {
-        margin-top: 100px;
-        float: left;
-        margin-left: 350px;
-    }
-}
-
-@media screen and (max-width:800px) {
-
-    .puzzle {
-        display: none;
-    }
-
+@media (max-width:900px) {
     nav {
+        float: right;
+        width: 50%;
+        flex-wrap: wrap;
+    }
 
-        margin-top: 100px;
+    .heading {
+        font-size: 35px;
+        width: 500px;
+        display: block;
+    }
+
+    .leftSection {
+        display: block;
+        width: 70%;
+        margin-bottom: 200px;
         float: left;
-        margin-left: -150px;
+        margin-left: 100px;
+    }
+
+    .button button {
+        font-size: 15px;
+    }
+}
+
+/* for mobile apps */
+
+@media (max-width:760px) {
+    nav {
+        float: right;
+        width: 30%;
+    }
+
+    .heading {
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .rightSection {
+        width: 40%;
     }
 }
